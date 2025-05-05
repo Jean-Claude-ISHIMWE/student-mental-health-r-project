@@ -1,7 +1,7 @@
 # =========================
 # Part 1 - Logical and Computational Thinking in R
 # Question 1: Day of the Week Checker
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Checks if a given day number is a working day or weekend.
 # =========================
 
@@ -35,7 +35,7 @@ if (!is.na(day_num) && day_num >= 0 && day_num <= 6) {
 # =========================
 # Part 1 - Logical and Computational Thinking in R
 # Question 2: Days in a Month
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Asks the user for a number (0–11) and prints the number of days in that month, ignoring leap years.
 # =========================
 
@@ -67,7 +67,7 @@ if (!is.na(month_num) && month_num >= 0 && month_num <= 11) {
 # =========================
 # Part 1 - Logical and Computational Thinking in R
 # Question 3: Multiplication Table
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Reads an integer (0–9) and prints its multiplication table up to N.
 # =========================
 
@@ -100,7 +100,7 @@ if (!is.na(base_num) && base_num >= 0 && base_num <= 9 &&
 # =========================
 # Part 1 - Logical and Computational Thinking in R
 # Question 4: Multiples of 3, 7, or 11
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Prints all numbers between 0 and 40 that are multiples of 3, 7, or 11.
 # =========================
 
@@ -121,7 +121,7 @@ for (num in start_num:end_num) {
 # =========================
 # Part 1 - Logical and Computational Thinking in R
 # Question 5: Point Position Checker
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Determines the position of a point (x, y) in the plane.
 # =========================
 
@@ -176,7 +176,7 @@ repeat {
 # =========================
 # Part 2 - Data Analysis with student_depression_dataset.csv
 # Question 1: Import the Dataset
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Loads the student depression dataset and displays the first 6 rows.
 # =========================
 
@@ -196,7 +196,7 @@ head(data)
 
 # =========================
 # Part 2 - Question 2: Understand the Structure
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Displays the structure and summary of the student depression dataset.
 # =========================
 
@@ -209,7 +209,7 @@ summary(data)
 
 # =========================
 # Part 2 - Question 3: Basic Descriptive Statistics
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Calculates mean, median, and standard deviation for three numerical variables.
 # =========================
 
@@ -228,7 +228,7 @@ for (var in num_vars) {
 
 # =========================
 # Part 2 - Question 4: Gender Distribution
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Creates a table for gender distribution and displays it using a bar plot.
 # =========================
 
@@ -255,7 +255,7 @@ barplot(gender_table,
 
 # =========================
 # Part 2 - Question 5: Depression by Gender
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Count how many students reported being depressed, grouped by gender, 
 # and present the result using a stacked bar chart.
 # =========================
@@ -282,7 +282,7 @@ barplot(depression_by_gender,
 
 # =========================
 # Part 2 - Question 6: Average Sleep Duration by City
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Calculate and display the average sleep duration for each city.
 # =========================
 
@@ -310,7 +310,7 @@ print(avg_sleep_by_city)
 
 # =========================
 # Part 2 - Question 8: Missing Data Check
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Checks for missing values in the dataset and counts how many per variable.
 # =========================
 
@@ -328,7 +328,7 @@ data$SleepDurationNumeric[is.na(data$SleepDurationNumeric)] <- mean(data$SleepDu
 
 # =========================
 # Part 2 - Question 9: Boxplot Visualization
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Creates a boxplot for CGPA grouped by Depression status.
 # =========================
 
@@ -349,7 +349,7 @@ grid()
 
 # =========================
 # Part 2 - Question 10: Linear Modeling
-# Author: Jean Claude Jean ISHIMWE
+# Author: Jean Claude ISHIMWE
 # Description: Fits a linear regression model with CGPA as the response variable and selected predictors.
 # =========================
 
