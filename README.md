@@ -3,10 +3,10 @@
 This project was completed as part of my R programming coursework. It demonstrates logical thinking using control structures and data analysis using R on a student depression dataset.
 
 
-## 📁 Project Structure
+## Project Structure
 
 
-## 🧩 Part 1: Logical Thinking in R
+## Part 1: Logical Thinking in R
 
 Includes:
 - Day of the Week Checker
@@ -15,7 +15,7 @@ Includes:
 - Multiples of 3, 7, or 11
 - Point Position Checker
 
-## 📊 Part 2: Data Analysis
+## Part 2: Data Analysis
 
 - Import and structure student depression dataset
 - Descriptive statistics
@@ -23,15 +23,15 @@ Includes:
 - Sleep duration by city
 - Boxplots and linear regression modeling
 
-## 📦 Tools Used
+## Tools Used
 
 - R (Base)
 - readr (CSV import)
 - R base plotting
 
-## 👤 Author
+## Author
 
-Jean Claude Jean ISHIMWE  
+Jean Claude ISHIMWE  
 📧 jeanclaudeishime@gmail.com  
 📘 WQU Master's in Financial Engineering  
 🎯 Future Data Scientist in the making!
